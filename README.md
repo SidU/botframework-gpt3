@@ -1,4 +1,4 @@
-# gpt3demo
+# Bot Framework GPT-3 demo 🤖
 
 Simple bot to demonstrate how to utilize GPT-3 in a Bot Framework bot
 
