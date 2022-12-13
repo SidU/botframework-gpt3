@@ -21,7 +21,7 @@ Simple bot to demonstrate how to utilize GPT-3 in a Bot Framework bot
     npm install
     ```
 
-- Get your OpenAI key from [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys)
+- Get your OpenAI key from [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and paste it in the `.env` file.
 
 
 - Start the bot
@@ -31,9 +31,14 @@ Simple bot to demonstrate how to utilize GPT-3 in a Bot Framework bot
     ```
 
 ## Play with the prompts to change the personality of the bot.
+### Some famous
 In bot.js, uncomment the provided prompt to make the bot pretend it is Mahatma Gandhi. Feel free to substitute the name with anyone else.
 
 ![image](https://user-images.githubusercontent.com/4107912/207254953-825bd3c9-cb1b-41f9-b4b2-f99e71c912df.png)
+
+### Sarcastic bot
+In bot.js, uncomment the provided prompt to get the bot to answer questions with sarcasm. 
+![image](https://user-images.githubusercontent.com/4107912/207257797-9b5ff127-87d0-4ec9-afed-50625966488b.png)
 
 
 ## Testing the bot using Bot Framework Emulator
