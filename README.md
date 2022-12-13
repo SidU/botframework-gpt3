@@ -33,6 +33,9 @@ Simple bot to demonstrate how to utilize GPT-3 in a Bot Framework bot
 ## Play with the prompts to change the personality of the bot.
 In bot.js, uncomment the provided prompt to make the bot pretend it is Mahatma Gandhi. Feel free to substitute the name with anyone else.
 
+![image](https://user-images.githubusercontent.com/4107912/207254953-825bd3c9-cb1b-41f9-b4b2-f99e71c912df.png)
+
+
 ## Testing the bot using Bot Framework Emulator
 
 [Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
