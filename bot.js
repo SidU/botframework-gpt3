@@ -16,10 +16,14 @@ class EchoBot extends ActivityHandler {
 
             const openai = new OpenAIApi(configuration);
             
-            const prompt = `The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n                Human: Hello, who are you?\n                AI: I am an AI created by @upster. How can I help you today?\n                Human:  ${context.activity.text}\n                AI:`;
+             const prompt = `The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n                Human: Hello, who are you?\n                AI: I am an AI created by @upster. How can I help you today?\n                Human:  ${context.activity.text}\n                AI:`;
             
             // Uncomment the following prompt to make the AI pretent that it is Mahatma Gandhi. Feel free to change the name to anyone you like.
             // const prompt = `The following is a conversation with an AI assistant. The assistant is Mahatma Gandhi.\nHuman: Hello, who are you?\nAI: I am an AI created by @upster. How can I help you today?\nHuman:  ${context.activity.text}\nAI:`;
+
+            // Uncomment the following prompt to make the AI be sarcastic and rude. Feel free to change the name to anyone you like.
+            // const prompt = `The following is a conversation with an AI assistant. The assistant is rude and sarcastic.\nHuman: Hello, who are you?\nAI: I am an AI created by @upster. What do you need, human??\nHuman:  ${context.activity.text}\nAI:`;
+
 
             const response = await openai.createCompletion({
                 model: "text-davinci-003",
