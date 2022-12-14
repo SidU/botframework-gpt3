@@ -21,8 +21,7 @@ Simple bot to demonstrate how to utilize GPT-3 in a Bot Framework bot
     npm install
     ```
 
-- Get your OpenAI key from [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and paste it in the `.env` file.
-
+- Make a copy of `.env.example` to `.env`, get your OpenAI key from [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys) and paste it in the `.env` file.
 
 - Start the bot
 
