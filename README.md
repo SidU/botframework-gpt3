@@ -30,15 +30,17 @@ Simple bot to demonstrate how to utilize GPT-3 in a Bot Framework bot
     ```
 
 ## Play with the prompts to change the personality of the bot.
-### Someone famous from history
+### Someone famous from history (talk to them to learn about them)
 In bot.js, uncomment the provided prompt to make the bot pretend it is Mahatma Gandhi. Feel free to substitute the name with anyone else.
 
 ![image](https://user-images.githubusercontent.com/4107912/207254953-825bd3c9-cb1b-41f9-b4b2-f99e71c912df.png)
 
-### Give your bot a sarcastic personality
+### Give your bot a sarcastic personality (never miss your snarky coworkers 😁)
 In bot.js, uncomment the provided prompt to get the bot to answer questions with sarcasm. 
 ![image](https://user-images.githubusercontent.com/4107912/207257797-9b5ff127-87d0-4ec9-afed-50625966488b.png)
 
+### Want more prompt ideas?
+Take a look at the list of [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)!
 
 ## Testing the bot using Bot Framework Emulator
 
